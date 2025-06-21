@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-from pyngrok import ngrok, conf
 import os
 
 app = Flask(__name__)
